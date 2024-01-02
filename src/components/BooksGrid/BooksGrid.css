@@ -1,0 +1,35 @@
+.loading-status,
+.error,
+h2 {
+    user-select: none;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #000000;
+}
+
+h2,
+.loading-status {
+    color: #eccb5f;
+   
+}
+
+.error {
+    color: #e4160f;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#search-results-wrapper {
+    padding-top: 85px;
+    height: 100%;
+    width: 100%;
+}
+
+#search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+}

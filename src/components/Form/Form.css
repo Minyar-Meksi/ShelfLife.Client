@@ -1,0 +1,21 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 40%;
+    height: 70%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: #00000071;
+}
+
+h2 {
+    user-select: none;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #000000;
+    color: #eccb5f;
+}
